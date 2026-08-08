@@ -1,0 +1,23 @@
+ANTES DE CLICAR EM ACOES NO GITHUB
+
+CONFIRA NO REPOSITORIO:
+[ ] .github/workflows/compilar-android-apk.yml
+[ ] index.html
+[ ] styles.css
+[ ] app.js
+[ ] android-bridge.js
+[ ] build.gradle
+[ ] settings.gradle
+[ ] gradle.properties
+[ ] app-build.gradle
+[ ] AndroidManifest.xml
+[ ] MainActivity.java
+[ ] preparar-android.sh
+
+IMPORTANTE:
+Mesmo se a pasta app nao subir pelo navegador, o workflow recria a pasta app automaticamente
+a partir dos arquivos visiveis da raiz.
+
+Se .github nao subir, crie manualmente:
+.github/workflows/compilar-android-apk.yml
+e copie o conteudo de WORKFLOW-ANDROID-COPIA-VISIVEL.yml.
